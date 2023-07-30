@@ -34,7 +34,7 @@ DarkoWeightTime <- data.frame(select(DarkoChickWeight, weight, Time)) #new dataf
 #(hint: use the 'select' function to not select a -column)
 
 select(DarkoWeightTime, -Time) #drop a column from the dataset
-DarkoWeight <- select(DarkoWeightTime, -Time) #
+DarkoWeight <- select(DarkoWeightTime, -Time) #create dataframe without
 
 #Let's rename a column name
 #TASK: Write the code that renames 'weight' to 'ounces'
